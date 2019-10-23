@@ -1,4 +1,4 @@
-# Vue, Bootstrap 4, Vuex, Vue-Router Boilerplate
+# Vue, Vuex, Vue-Router, Bootstrap 4, ESLint Boilerplate
 
 ![logo](https://myhappyagency.com/blog/wp-content/uploads/2019/10/vue-bootstrap-vuex-eslint.png)
 
