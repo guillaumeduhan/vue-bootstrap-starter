@@ -140,5 +140,7 @@ module.exports = {
           'warn',
           'never',
       ],
+      "no-console": "off",
+      "import/no-unresolved": "off"
   }
 }
