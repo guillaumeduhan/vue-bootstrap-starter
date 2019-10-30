@@ -6,18 +6,16 @@
 </template>
 
 <script>
-import pjson from '../../package.json';
+import pjson from '../../package.json'
 
 export default {
   name: 'Home',
   data() {
     return {
-      pjson
+      pjson,
     }
-  }
+  },
 }
 </script>
 
-<style lang="scss">
-  #Home {}
-</style>
+<style lang="scss"></style>
