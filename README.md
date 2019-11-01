@@ -9,7 +9,7 @@ Vue-Cli-3, Bootstrap 4, Vuex, Vue-Router, Babel, ESLint, SCSS and Pug boilerplat
 Clone project and enter in folder:
 
 ```
-cd vue-vuex-vuerouter-bootstrap
+cd vue-bootstrap-boilerplate
 ```
 
 Run npm install:
