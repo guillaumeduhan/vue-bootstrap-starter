@@ -36,7 +36,8 @@ We use [SemVer](http://semver.org/) for versioning.
 ## Authors
 
 * **Guillaume Duhan** - *Initial work* - [Github](https://github.com/guillaumeduhan)
+* **kaangokdemir** - *Contributor* - [Github](https://github.com/kaangokdemir)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License.
