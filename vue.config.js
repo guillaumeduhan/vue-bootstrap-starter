@@ -3,5 +3,4 @@ module.exports = {
     port: '8080',
   },
   lintOnSave: true,
-  fileNameHashing: false,
 }
