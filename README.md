@@ -37,6 +37,7 @@ We use [SemVer](http://semver.org/) for versioning.
 
 * **Guillaume Duhan** - *Initial work* - [Github](https://github.com/guillaumeduhan)
 * **kaangokdemir** - *Contributor* - [Github](https://github.com/kaangokdemir)
+* **malinsdd** - *Contributor* - [Github](https://github.com/malinsdd)
 
 ## License
 
