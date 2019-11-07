@@ -2,7 +2,7 @@
 
 ![logo](https://myhappyagency.com/blog/wp-content/uploads/2019/10/vue-bootstrap-vuex-eslint.png)
 
-Vue-Cli-3, Bootstrap 4, Vuex, Vue-Router, Babel, ESLint, SCSS and Pug boilerplate.
+Vue-Cli-3, Bootstrap 4, Vuex, Vue-Router, Babel, ESLint, Axios, SCSS and Pug boilerplate.
 
 ## Getting Started
 
