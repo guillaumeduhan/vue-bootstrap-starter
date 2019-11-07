@@ -2,7 +2,11 @@
   "name": "vue-bootstrap-boilerplate",
   "version": "1.0.0",
   "author": "Guillaume Duhan",
-  "description": "Vue-Cli-3, Vuex, Vue-Router, Bootstrap 4, Babel, ESLint, SCSS and Pug boilerplate.",
+  "contributors": [
+    "kaangokdemir",
+    "malinsdd"
+  ],
+  "description": "Vue-Cli-3, Vuex, Vue-Router, Bootstrap 4, Babel, ESLint, Axios, SCSS and Pug boilerplate.",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -11,6 +15,7 @@
   },
   "dependencies": {
     "@vue/eslint-config-airbnb": "^4.0.1",
+    "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.4",
     "core-js": "^3.1.2",
