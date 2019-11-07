@@ -32,6 +32,9 @@ export default {
 
 <style lang="scss">
 #Home {
+  h1 {
+    color: $primary;
+  }
   .avatar {
     img {
       border-radius: 75px;
