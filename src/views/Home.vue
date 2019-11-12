@@ -28,9 +28,9 @@ export default {
       max-width: 75px;
       margin-bottom: 15px;
     }
-      p {
+  p {
 
-      }
+  }
   }
 }
 </style>

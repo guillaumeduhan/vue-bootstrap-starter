@@ -2,7 +2,7 @@
   "name": "vue-bootstrap-boilerplate",
   "version": "1.0.0",
   "author": "Guillaume Duhan",
-  "sasslintConfig": "./sass-lint.yml",
+  "sasslintConfig": "./.sass-lint.yml",
   "contributors": [
     "kaangokdemir",
     "malinsdd"
