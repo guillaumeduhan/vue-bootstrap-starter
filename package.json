@@ -1,8 +1,7 @@
 {
   "name": "vue-bootstrap-boilerplate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Guillaume Duhan",
-  "sasslintConfig": "./.sass-lint.yml",
   "contributors": [
     "kaangokdemir",
     "malinsdd"
@@ -12,7 +11,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "stylelint '**/*.vue' '**/*.scss' --fix scss"
   },
   "dependencies": {
     "@vue/eslint-config-airbnb": "^4.0.1",
@@ -20,6 +20,7 @@
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.4",
     "core-js": "^3.1.2",
+    "node-sass": "^4.13.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.6",
     "vuex": "^3.0.1"
@@ -37,9 +38,10 @@
     "eslint-plugin-vue": "^5.2.3",
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
-    "sass": "^1.19.0",
-    "sass-lint": "^1.13.1",
     "sass-loader": "^8.0.0",
+    "stylelint": "^11.1.1",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-processor-html": "^1.0.0",
     "vue-template-compiler": "^2.6.10"
   },
   "postcss": {
