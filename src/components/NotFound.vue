@@ -8,3 +8,7 @@ export default {
   name: 'NotFound',
 }
 </script>
+
+<style lang="scss">
+#NotFound {}
+</style>

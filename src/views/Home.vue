@@ -14,23 +14,21 @@ export default {
   name: 'Home',
   data() {
     return {
-      pjson
+      pjson,
     }
-  }
+  },
 }
 </script>
 
 <style lang="scss">
 #Home {
-  .avatar {
-    img {
-      border-radius: 75px;
-      max-width: 75px;
-      margin-bottom: 15px;
+    .avatar {
+        img {
+            border-radius: 75px;
+            max-width: 75px;
+            margin-bottom: 15px;
+            background: #C32424;
+        }
     }
-  p {
-
-  }
-  }
 }
 </style>
