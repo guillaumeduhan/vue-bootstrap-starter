@@ -22,13 +22,13 @@ export default {
 
 <style lang="scss">
 #Home {
-    .avatar {
-        img {
-            border-radius: 75px;
-            max-width: 75px;
-            margin-bottom: 15px;
-            background: #C32424;
-        }
+  .avatar {
+    img {
+      border-radius: 75px;
+      max-width: 75px;
+      margin-bottom: 15px;
+      background: #C32424;
     }
+  }
 }
 </style>
