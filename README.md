@@ -34,7 +34,7 @@ npm run serve
 
 * [Vue CLI](https://cli.vuejs.org/) - Standard Tooling for Vue.js Development
 * [Bootstrap-vue](https://bootstrap-vue.js.org/) - Bootstrap v4 is the world's most popular framework for building responsive, mobile-first sites.
-* [Vue-x](https://vuex.vuejs.org/) - Vuex is a state management pattern + library for Vue.js applications.
+* [Vuex](https://vuex.vuejs.org/) - Vuex is a state management pattern + library for Vue.js applications.
 * [Vue-Router](https://router.vuejs.org/) - Vue Router is the official router for Vue.js.
 * [Pug](https://pugjs.org/api/getting-started.html) - Pug.js is a HTML templating engine.
 
@@ -42,9 +42,9 @@ npm run serve
 
 We use [SemVer](http://semver.org/) for versioning.
 
-## Authors
+## Authors ✨
 
-* **Guillaume Duhan** - *Initial work* - [Github](https://github.com/guillaumeduhan)
+* **guillaumeduhan** - *Initial work* - [Github](https://github.com/guillaumeduhan)
 * **kaangokdemir** - *Contributor* - [Github](https://github.com/kaangokdemir)
 * **malinsdd** - *Contributor* - [Github](https://github.com/malinsdd)
 
