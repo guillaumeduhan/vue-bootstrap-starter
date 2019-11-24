@@ -30,11 +30,13 @@ Enjoy:
 npm run serve
 ```
 
-
 ## Built With
 
 * [Vue CLI](https://cli.vuejs.org/) - Standard Tooling for Vue.js Development
 * [Bootstrap-vue](https://bootstrap-vue.js.org/) - Bootstrap v4 is the world's most popular framework for building responsive, mobile-first sites.
+* [Vue-x](https://vuex.vuejs.org/) - Vuex is a state management pattern + library for Vue.js applications.
+* [Vue-Router](https://router.vuejs.org/) - Vue Router is the official router for Vue.js.
+* [Pug](https://pugjs.org/api/getting-started.html) - Pug.js is a HTML templating engine.
 
 ## Versioning
 
