@@ -6,7 +6,7 @@
 - Bootstrap 4
 - Vuex
 - Vue-Router
-- Pug
+- HTML/Pug
 - Sass/Scss
 - ESLint
 - Axios
