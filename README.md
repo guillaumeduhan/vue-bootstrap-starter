@@ -1,4 +1,4 @@
-# Vue-Bootstrap Boilerplate
+# Vue Bootstrap boilerplate
 
 ![logo](https://myhappyagency.com/blog/wp-content/uploads/2019/10/vue-bootstrap-vuex-eslint.png)
 
@@ -6,7 +6,7 @@
 - Bootstrap 4
 - Vuex
 - Vue-Router
-- HTML/Pug
+- HTML/Pug (switch branch)
 - Sass/Scss
 - ESLint
 - Axios
