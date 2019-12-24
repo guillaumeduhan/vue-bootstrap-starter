@@ -6,7 +6,7 @@
     "kaangokdemir",
     "malinsdd"
   ],
-  "description": "Vue-Cli-3, Vuex, Vue-Router, Bootstrap 4, Babel, ESLint, Axios, SCSS and Pug boilerplate.",
+  "description": "Vue-Cli-3, Vuex, Vue-Router, Bootstrap 4, Babel, ESLint, Axios, SCSS and Pug/HTML boilerplate.",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
