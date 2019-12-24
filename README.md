@@ -1,4 +1,4 @@
-# Vue-Bootstrap Boilerplate
+# Vue Bootstrap Boilerplate
 
 ![logo](https://myhappyagency.com/blog/wp-content/uploads/2019/10/vue-bootstrap-vuex-eslint.png)
 
