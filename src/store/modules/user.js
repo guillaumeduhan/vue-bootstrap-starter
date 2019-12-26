@@ -1,23 +1,26 @@
+const state = {
+  name: 'John Doe',
+}
+
+const mutations = {
+  SET_NAME(state, payload) {
+    state.name = payload
+  },
+}
+
+const getters = {
+  getName: (state) => state.name,
+}
+
+const actions = {
+  setName({ commit }, payload) {
+    commit('SET_NAME', payload)
+  },
+}
+
 export default {
-  namespaced: true,
-
-  state: {
-    name: 'John Doe',
-  },
-
-  getters: {
-    getName: (state) => state.name,
-  },
-
-  mutations: {
-    SET_NAME(state, payload) {
-      state.name = payload
-    },
-  },
-
-  actions: {
-    setName({ commit }, payload) {
-      commit('SET_NAME', payload)
-    },
-  },
+  state,
+  mutations,
+  getters,
+  actions,
 }
