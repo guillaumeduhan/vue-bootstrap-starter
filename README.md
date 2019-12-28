@@ -1,8 +1,9 @@
-# Vue Bootstrap Boilerplate
+# Vue Bootstrap Boilerplate 2020
 
 ![logo](https://myhappyagency.com/blog/wp-content/uploads/2019/10/vue-bootstrap-vuex-eslint.png)
 
-- Vue 3
+- Vue 2
+- Vue-CLI 3
 - Bootstrap 4
 - Vuex
 - Vue-Router
