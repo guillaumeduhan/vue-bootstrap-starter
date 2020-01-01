@@ -1,12 +1,12 @@
 export const hello = {
   data() {
     return {
-      hello: 'world'
+      hello: 'world',
     }
   },
   methods: {
     sayHi() {
       console.log(this.hello)
-    }
-  }
+    },
+  },
 }
