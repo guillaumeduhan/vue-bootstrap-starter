@@ -1,4 +1,4 @@
-export default const hello = {
+const hello = {
   data() {
     return {
       hello: 'world',
@@ -10,3 +10,5 @@ export default const hello = {
     },
   },
 }
+
+export default hello
