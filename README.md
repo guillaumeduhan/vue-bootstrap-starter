@@ -1,6 +1,6 @@
 # Vue Bootstrap Boilerplate 2020
 
-![logo](https://myhappyagency.com/blog/wp-content/uploads/2019/10/vue-bootstrap-vuex-eslint.png)
+![logo](https://myhappyagency.com/blog/wp-content/uploads/2020/01/vbs.png)
 
 - Vue 2
 - Vue-CLI 3
