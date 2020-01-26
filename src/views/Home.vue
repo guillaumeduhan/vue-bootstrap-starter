@@ -1,22 +1,12 @@
 <template lang="pug">
 #Home
   header
-    img(src='https://myhappyagency.com/blog/wp-content/uploads/2020/01/vbs.png')
-    h1 {{ pjson.name }}
-    p {{ pjson.description }}
-    a(href="https://github.com/guillaumeduhan/vue-bootstrap-boilerplate", target="_blank") Github
+    img(src='https://myhappyagency.com/blog/wp-content/uploads/2019/10/vue-bootstrap-vuex-eslint.png')
 </template>
 
 <script>
-import pjson from '../../package.json'
-
 export default {
-  name: 'Home',
-  data() {
-    return {
-      pjson,
-    }
-  },
+  name: 'Home'
 }
 </script>
 
