@@ -1,6 +1,7 @@
 <template lang="pug">
   #app
-    router-view
+    .container.d-flex.justify-content-center.align-items-center
+      router-view
 </template>
 
 <style lang="scss">
@@ -10,5 +11,10 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2C3E50;
+  min-height: 100vh;
+
+  .container {
+    min-height: 100vh;
+  }
 }
 </style>
