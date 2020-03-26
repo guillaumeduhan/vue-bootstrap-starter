@@ -2,7 +2,7 @@ const ExtractTextPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
   devServer: {
-    port: '8080',
+    port: '8081',
   },
   chainWebpack: (config) => {
     config.optimization.delete('splitChunks')
