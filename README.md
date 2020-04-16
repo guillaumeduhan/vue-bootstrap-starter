@@ -1,6 +1,6 @@
 # Vue Bootstrap Boilerplate
 
-![logo](https://repository-images.githubusercontent.com/217154004/4ab7f100-2e33-11ea-8e94-a8ffdf7cd506)
+![logo](https://repository-images.githubusercontent.com/217154004/312a6600-802c-11ea-9de1-d539825cc1f1)
 
 - Vue 2
 - Vue-CLI 3
