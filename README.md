@@ -2,7 +2,6 @@
 
 ![logo](https://repository-images.githubusercontent.com/217154004/312a6600-802c-11ea-9de1-d539825cc1f1)
 
-- Vue 2
 - Vue-CLI 3
 - Bootstrap 4
 - Vuex
