@@ -1,9 +1,9 @@
-# Vue Bootstrap Boilerplate
+# Vue Tailwindcss Boilerplate
 
 ![logo](https://repository-images.githubusercontent.com/217154004/312a6600-802c-11ea-9de1-d539825cc1f1)
 
 - Vue-CLI 3
-- Bootstrap 4
+- Tailwindcss
 - Vuex
 - Vue-Router
 - HTML/Pug (switch branch)
@@ -16,7 +16,7 @@
 Clone project and enter in folder:
 
 ```
-cd vue-bootstrap-boilerplate
+cd vue-tailwindcss-boilerplate
 ```
 
 Run npm install:
@@ -33,10 +33,9 @@ npm run serve
 ## Built With
 
 * [Vue CLI](https://cli.vuejs.org/) - Standard Tooling for Vue.js Development
-* [Bootstrap-vue](https://bootstrap-vue.js.org/) - Bootstrap v4 is the world's most popular framework for building responsive, mobile-first sites.
+* [Tailwindcss](https://tailwindcss.com/) - Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.
 * [Vuex](https://vuex.vuejs.org/) - Vuex is a state management pattern + library for Vue.js applications.
 * [Vue-Router](https://router.vuejs.org/) - Vue Router is the official router for Vue.js.
-* [Pug](https://pugjs.org/api/getting-started.html) - Pug.js is a HTML templating engine.
 
 ## Versioning
 
@@ -45,8 +44,6 @@ We use [SemVer](http://semver.org/) for versioning.
 ## Authors ✨
 
 * **guillaumeduhan** - *Initial work* - [Github](https://github.com/guillaumeduhan)
-* **kaangokdemir** - *Contributor* - [Github](https://github.com/kaangokdemir)
-* **malinsdd** - *Contributor* - [Github](https://github.com/malinsdd)
 
 ## License
 
