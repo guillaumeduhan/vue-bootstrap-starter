@@ -1,8 +1,9 @@
 const ExtractTextPlugin = require("mini-css-extract-plugin");
+const path = require("path");
 
 module.exports = {
   devServer: {
-    port: "8081",
+    port: "8080",
   },
   runtimeCompiler: true,
   chainWebpack: (config) => {
@@ -18,9 +19,14 @@ module.exports = {
     ]);
   },
   configureWebpack: {
-    // double ?
     output: {
       filename: "[name].js",
+    },
+    resolve: {
+      alias: {
+        "@": path.resolve(__dirname, "./src"),
+      },
+      extensions: [".js", ".vue", ".json"],
     },
   },
   lintOnSave: true,
