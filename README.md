@@ -1,6 +1,6 @@
 # Vue Bootstrap Boilerplate
 
-![logo](https://repository-images.githubusercontent.com/217154004/7c04bd00-b66e-11ea-8c99-449e1cd1b91e)
+![logo](https://repository-images.githubusercontent.com/217154004/2402a680-b66f-11ea-9125-22625960bc03)
 
 - Vue.js 3
 - Bootstrap 4
