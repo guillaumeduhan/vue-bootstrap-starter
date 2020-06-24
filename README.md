@@ -1,9 +1,9 @@
 # Vue Bootstrap Boilerplate
 
-![logo](https://repository-images.githubusercontent.com/217154004/312a6600-802c-11ea-9de1-d539825cc1f1)
+![logo](https://repository-images.githubusercontent.com/217154004/7c04bd00-b66e-11ea-8c99-449e1cd1b91e)
 
-- Vue-CLI 3
-- Bootstrap
+- Vue.js 3
+- Bootstrap 4
 - Vuex
 - Vue-Router
 - Sass/Scss
