@@ -6,7 +6,6 @@
 - Bootstrap
 - Vuex
 - Vue-Router
-- HTML/Pug (switch branch)
 - Sass/Scss
 - ESLint
 - Axios
@@ -16,7 +15,7 @@
 Clone project and enter in folder:
 
 ```
-cd vue-Bootstrap-boilerplate
+cd vue-bootstrap-boilerplate
 ```
 
 Run npm install:
@@ -34,9 +33,9 @@ npm run serve
 ## Built With
 
 - [Vue CLI](https://cli.vuejs.org/) - Standard Tooling for Vue.js Development
-- [Bootstrap](https://getbootstrap.com/) - Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
 - [Vuex](https://vuex.vuejs.org/) - Vuex is a state management pattern + library for Vue.js applications.
 - [Vue-Router](https://router.vuejs.org/) - Vue Router is the official router for Vue.js.
+- [Bootstrap](https://getbootstrap.com/) - Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
 
 ## Versioning
 
