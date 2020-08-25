@@ -6,11 +6,7 @@
 
 <script>
 export default {
-<<<<<<< Updated upstream
-  name: "Home",
-=======
-	name: "Home"
->>>>>>> Stashed changes
+	name: "Home",
 };
 </script>
 
