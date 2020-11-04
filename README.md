@@ -1,14 +1,10 @@
-# Vue Bootstrap Boilerplate
+# Vue/Bootstrap Boilerplate
 
-![logo](https://repository-images.githubusercontent.com/217154004/2402a680-b66f-11ea-9125-22625960bc03)
+🦾 Starter boilerplate with Vue.js & Bootstrap\
+📦 Vue.js 3, Bootstrap 4, Vuex, Vue-Router, Sass/Scss, ESLint, Axios\
+⌚ Last update: 11/4/2020
 
-- Vue.js 3
-- Bootstrap 4
-- Vuex
-- Vue-Router
-- Sass/Scss
-- ESLint
-- Axios
+![logo](https://repository-images.githubusercontent.com/217154004/11cb2b80-1edf-11eb-95b8-5b50543ffe63)
 
 ## Getting Started
 
