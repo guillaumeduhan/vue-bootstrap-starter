@@ -1,48 +1,44 @@
 {
   "name": "vue-bootstrap-boilerplate",
-  "version": "2.0.0",
-  "author": "Guillaume Duhan",
-  "contributors": [
-    "kaangokdemir",
-    "malinsdd"
-  ],
-  "main": "server.js",
+  "version": "2.1.0",
+  "private": false,
   "description": "Vue-Cli-3, Vuex, Vue-Router, Bootstrap 4, Babel, ESLint, Axios, SCSS and Pug/HTML boilerplate.",
-  "private": true,
+  "author": "Guillaume Duhan",
   "scripts": {
-    "dev": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "stylelint '**/*.vue' '**/*.scss' --fix scss"
+    "lint": "vue-cli-service lint",
+    "dev": "vue-cli-service serve"
   },
   "dependencies": {
-    "@vue/eslint-config-airbnb": "^4.0.1",
-    "axios": "^0.19.0",
-    "bootstrap": "^4.3.1",
+    "@vue/eslint-config-airbnb": "^5.3.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.1",
     "bootstrap-vue": "^2.21.2",
-    "core-js": "^3.1.2",
-    "node-sass": "^4.13.0",
-    "vue": "^2.6.10",
-    "vue-router": "^3.0.6",
-    "vuex": "^3.0.1"
+    "core-js": "^3.14.0",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^6.0.0",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.0.0",
-    "@vue/cli-plugin-unit-jest": "^4.0.0",
-    "@vue/cli-service": "^4.0.0",
-    "@vue/test-utils": "1.0.0-beta.29",
-    "babel-eslint": "^10.0.3",
-    "babel-preset-airbnb": "^4.1.0",
-    "eslint": "^6.5.1",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-vue": "^5.2.3",
-    "pug-plain-loader": "^1.0.0",
-    "sass-loader": "^8.0.0",
-    "stylelint-config-standard": "^19.0.0",
-    "stylelint-processor-html": "^1.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "@vue/cli-plugin-babel": "^4.5.13",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-unit-jest": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "@vue/test-utils": "1.2.1",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-airbnb": "^5.0.0",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-vue": "^7.11.1",
+    "pug-plain-loader": "^1.1.0",
+    "sass-loader": "^10.0.0",
+    "vue-template-compiler": "^2.6.14"
   },
   "postcss": {
     "plugins": {
@@ -55,5 +51,13 @@
   ],
   "jest": {
     "preset": "@vue/cli-plugin-unit-jest"
-  }
+  },
+  "nohoist": [
+    "**/@vue/cli-plugin-eslint",
+    "**/@vue/cli-plugin-eslint/**"
+  ],
+  "contributors": [
+    "kaangokdemir",
+    "malinsdd"
+  ]
 }

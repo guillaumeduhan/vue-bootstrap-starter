@@ -1,42 +1,27 @@
-const ExtractTextPlugin = require("mini-css-extract-plugin");
-const path = require("path");
+const path = require('path')
 
 module.exports = {
   devServer: {
-    port: "8080",
+    port: '3000',
+    overlay: {
+      warnings: true,
+      errors: true
+    }
   },
-  runtimeCompiler: true,
-  chainWebpack: (config) => {
-    config.optimization.delete("splitChunks");
-
-    config.output.filename("[name].js");
-
-    config.plugin("extract-css").use(ExtractTextPlugin, [
-      {
-        filename: "[name].css",
-        allChunks: true,
-      },
-    ]);
-  },
-  configureWebpack: {
-    output: {
-      filename: "[name].js",
-    },
-    resolve: {
-      alias: {
-        "@": path.resolve(__dirname, "./src"),
-      },
-      extensions: [".js", ".vue", ".json"],
-    },
+  chainWebpack: config => {
+    config.resolve.alias.set(
+      'vue$',
+      path.resolve(__dirname, 'node_modules/vue/dist/vue.runtime.esm.js')
+    )
   },
   lintOnSave: true,
   css: {
     loaderOptions: {
       sass: {
-        prependData: `
+        additionalData: `
           @import "@/scss/style.scss";
-        `,
-      },
-    },
-  },
-};
+        `
+      }
+    }
+  }
+}

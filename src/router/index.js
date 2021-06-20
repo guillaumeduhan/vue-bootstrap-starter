@@ -11,21 +11,20 @@ const routes = [
   {
     path: '*',
     name: 'NotFound',
-    component: NotFound,
+    component: NotFound
   }, {
     path: '/',
     name: 'home',
     component: Home,
     meta: {
-      auth: false,
-    },
-  },
+      auth: false
+    }
+  }
 ]
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
-  routes,
+  routes
 })
 
 export default router

@@ -1,19 +1,5 @@
 <template>
-	<div class="Home">
-		<p>Hello world</p>
-	</div>
+  <div class="Home">
+    <b-alert show>Welcome on vue-bootstrap-boilerplate.</b-alert>
+  </div>
 </template>
-
-<script>
-export default {
-	name: "Home",
-};
-</script>
-
-<style lang="scss">
-#Home {
-	img {
-		max-width: 400px;
-	}
-}
-</style>
