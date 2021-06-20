@@ -10,6 +10,7 @@
   "description": "Vue-Cli-3, Vuex, Vue-Router, Bootstrap 4, Babel, ESLint, Axios, SCSS and Pug/HTML boilerplate.",
   "private": true,
   "scripts": {
+    "dev": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
@@ -19,7 +20,7 @@
     "@vue/eslint-config-airbnb": "^4.0.1",
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
-    "bootstrap-vue": "^2.0.4",
+    "bootstrap-vue": "^2.21.2",
     "core-js": "^3.1.2",
     "node-sass": "^4.13.0",
     "vue": "^2.6.10",
