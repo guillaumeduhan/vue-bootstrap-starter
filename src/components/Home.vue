@@ -1,12 +1,12 @@
 <template>
-  <div>Notfound</div>
+  <div>Home</div>
 </template>
 
 <script>
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'Notfound',
+  name: 'Home',
   setup() {
     
   },

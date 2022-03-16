@@ -1,30 +1,22 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-
-import Home from '@/views/Home.vue'
-
-import NotFound from '@/components/NotFound.vue'
-
-Vue.use(VueRouter)
+import { createWebHistory, createRouter } from "vue-router";
+import Home from "../components/Home";
+import Notfound from "../components/NotFound";
 
 const routes = [
   {
-    path: '*',
-    name: 'NotFound',
-    component: NotFound
-  }, {
-    path: '/',
-    name: 'home',
-    component: Home,
-    meta: {
-      auth: false
-    }
+    path: "/",
+    name: "Home",
+    component: Home
+  },
+  {
+    path: "/:catchAll(.*)",
+    name: "Notfound",
+    component: Notfound
   }
-]
+];
 
-const router = new VueRouter({
-  mode: 'history',
+const router = createRouter({
+  history: createWebHistory(),
   routes
-})
-
-export default router
+});
+export default router;

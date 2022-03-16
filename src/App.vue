@@ -1,7 +1,14 @@
 <template>
-  <div id="app">
-    <div class="container d-flex justify-content-center align-items-center">
-      <router-view />
-    </div>
-  </div>
+  <router-view></router-view>
 </template>
+
+<script>
+import { defineComponent } from 'vue'
+
+export default defineComponent({
+  name: 'App',
+  setup() {
+    
+  },
+})
+</script>

@@ -1,7 +1,7 @@
-# Vue/Bootstrap Boilerplate
+# Vue 3 Bootstrap Boilerplate
 
-🦾 Starter boilerplate with Vue.js & Bootstrap\
-📦 Vue, Bootstrap 5, Vuex, Vue-Router, Sass/Scss, ESLint, Axios\
+🦾 Starter boilerplate with Vue 3 & Bootstrap\
+📦 Vue 3, Bootstrap 5, Vuex, Vue-Router, Sass/Scss, ESLint
 ⌚ Last update: 3/16/2022
 
 ![logo](https://repository-images.githubusercontent.com/217154004/11cb2b80-1edf-11eb-95b8-5b50543ffe63)

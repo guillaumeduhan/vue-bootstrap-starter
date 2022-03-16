@@ -1,63 +1,51 @@
 {
   "name": "vue-bootstrap-boilerplate",
-  "version": "2.2.0",
+  "version": "3.0.0",
   "private": false,
-  "description": "Vue-Cli-3, Vuex, Vue-Router, Bootstrap 5, Babel, ESLint, Axios, SCSS and HTML boilerplate.",
-  "author": "Guillaume Duhan",
+  "author": "guillaumeduhan",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint",
-    "dev": "vue-cli-service serve"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@vue/eslint-config-airbnb": "^5.3.0",
-    "axios": "^0.21.1",
-    "bootstrap": "^5.0.1",
-    "bootstrap-vue": "^2.21.2",
-    "core-js": "^3.14.0",
-    "mini-css-extract-plugin": "^1.6.0",
-    "node-sass": "^7.0.1",
-    "vue": "^2.6.14",
-    "vue-router": "^3.5.1",
-    "vuex": "^3.6.2"
+    "bootstrap": "^5.1.3",
+    "core-js": "^3.8.3",
+    "vue": "^3.2.13",
+    "vue-router": "4",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^5.0.3",
-    "@vue/cli-plugin-eslint": "^5.0.3",
-    "@vue/cli-plugin-unit-jest": "^5.0.3",
-    "@vue/cli-service": "^5.0.3",
-    "@vue/eslint-config-airbnb": "^5.0.2",
-    "@vue/test-utils": "1.2.1",
-    "babel-eslint": "^10.1.0",
-    "babel-preset-airbnb": "^5.0.0",
-    "eslint": "^7.29.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-vue": "^7.11.1",
-    "pug-plain-loader": "^1.1.0",
-    "sass-loader": "^12.6.0",
-    "vue-template-compiler": "^2.6.14"
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0"
   },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "vue/multi-word-component-names": "off"
     }
   },
   "browserslist": [
     "> 1%",
-    "last 2 versions"
-  ],
-  "jest": {
-    "preset": "@vue/cli-plugin-unit-jest"
-  },
-  "nohoist": [
-    "**/@vue/cli-plugin-eslint",
-    "**/@vue/cli-plugin-eslint/**"
-  ],
-  "contributors": [
-    "kaangokdemir",
-    "malinsdd"
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
   ]
 }
