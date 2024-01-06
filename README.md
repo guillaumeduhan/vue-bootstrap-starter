@@ -1,8 +1,8 @@
-# Vue/Bootstrap Boilerplate
+# Vue 3 Bootstrap Starter
 
-🦾 Starter boilerplate with Vue.js & Bootstrap\
-📦 Vue, Bootstrap 5, Vuex, Vue-Router, Sass/Scss, ESLint, Axios\
-⌚ Last update: 3/16/2022
+🦾 Starter boilerplate with Vue 3 & Bootstrap.
+📦 Vue 3, Bootstrap 5, Vue-Router, Pinia, Sass/Scss, ESLint
+⌚ Last update: 1/05/2024
 
 ![logo](https://repository-images.githubusercontent.com/217154004/11cb2b80-1edf-11eb-95b8-5b50543ffe63)
 
@@ -11,7 +11,7 @@
 Clone project and enter in folder:
 
 ```
-cd vue-bootstrap-boilerplate
+cd vue-bootstrap-starter
 ```
 
 Run npm install:
@@ -29,8 +29,8 @@ npm run serve
 ## Built With
 
 - [Vue CLI](https://cli.vuejs.org/) - Standard Tooling for Vue.js Development
-- [Vuex](https://vuex.vuejs.org/) - Vuex is a state management pattern + library for Vue.js applications.
 - [Vue-Router](https://router.vuejs.org/) - Vue Router is the official router for Vue.js.
+- [Pinia](https://router.vuejs.org/) - Pinia is the best state management for Vue.js.
 - [Bootstrap](https://getbootstrap.com/) - Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
 
 ## Versioning

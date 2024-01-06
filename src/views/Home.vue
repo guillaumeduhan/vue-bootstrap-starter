@@ -1,5 +1,8 @@
+<script setup lang="ts">
+</script>
+
 <template>
-  <div class="Home">
-    <b-alert show>Welcome on vue-bootstrap-boilerplate.</b-alert>
-  </div>
+  <main>
+    This is your homepage.
+  </main>
 </template>
