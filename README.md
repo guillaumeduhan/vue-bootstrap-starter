@@ -4,7 +4,7 @@
 📦 Vue 3, Bootstrap 5, Vue-Router, Pinia, Sass/Scss, ESLint
 ⌚ Last update: 1/05/2024
 
-![logo](https://repository-images.githubusercontent.com/217154004/11cb2b80-1edf-11eb-95b8-5b50543ffe63)
+![logo](https://repository-images.githubusercontent.com/217154004/ba7dfb8c-9645-42ca-ad88-41f568fcfd36)
 
 ## Getting Started
 
