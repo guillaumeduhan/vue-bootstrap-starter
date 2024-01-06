@@ -1,63 +1,40 @@
 {
-  "name": "vue-bootstrap-boilerplate",
-  "version": "2.2.0",
+  "name": "vue-bootstrap-starter",
+  "author": "codewithguillaume",
+  "version": "4.0.0",
   "private": false,
-  "description": "Vue-Cli-3, Vuex, Vue-Router, Bootstrap 5, Babel, ESLint, Axios, SCSS and HTML boilerplate.",
-  "author": "Guillaume Duhan",
+  "type": "module",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint",
-    "dev": "vue-cli-service serve"
+    "dev": "vite --port=3000",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
   },
   "dependencies": {
-    "@vue/eslint-config-airbnb": "^5.3.0",
-    "axios": "^0.21.1",
-    "bootstrap": "^5.0.1",
-    "bootstrap-vue": "^2.21.2",
-    "core-js": "^3.14.0",
-    "mini-css-extract-plugin": "^1.6.0",
-    "node-sass": "^7.0.1",
-    "vue": "^2.6.14",
-    "vue-router": "^3.5.1",
-    "vuex": "^3.6.2"
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.2",
+    "pinia": "^2.1.7",
+    "sass": "^1.69.7",
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^5.0.3",
-    "@vue/cli-plugin-eslint": "^5.0.3",
-    "@vue/cli-plugin-unit-jest": "^5.0.3",
-    "@vue/cli-service": "^5.0.3",
-    "@vue/eslint-config-airbnb": "^5.0.2",
-    "@vue/test-utils": "1.2.1",
-    "babel-eslint": "^10.1.0",
-    "babel-preset-airbnb": "^5.0.0",
-    "eslint": "^7.29.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-vue": "^7.11.1",
-    "pug-plain-loader": "^1.1.0",
-    "sass-loader": "^12.6.0",
-    "vue-template-compiler": "^2.6.14"
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ],
-  "jest": {
-    "preset": "@vue/cli-plugin-unit-jest"
-  },
-  "nohoist": [
-    "**/@vue/cli-plugin-eslint",
-    "**/@vue/cli-plugin-eslint/**"
-  ],
-  "contributors": [
-    "kaangokdemir",
-    "malinsdd"
-  ]
+    "@rushstack/eslint-patch": "^1.3.3",
+    "@tsconfig/node18": "^18.2.2",
+    "@types/node": "^18.19.3",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "@vue/tsconfig": "^0.5.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "npm-run-all2": "^6.1.1",
+    "prettier": "^3.0.3",
+    "typescript": "~5.3.0",
+    "vite": "^5.0.10",
+    "vue-tsc": "^1.8.25"
+  }
 }
