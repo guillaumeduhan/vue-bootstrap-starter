@@ -23,7 +23,7 @@ npm i
 Enjoy:
 
 ```
-npm run serve
+npm run dev
 ```
 
 ## Built With
