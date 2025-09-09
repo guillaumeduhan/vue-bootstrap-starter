@@ -1,5 +1,7 @@
 # 🦾 Vue 3 Bootstrap Starter
 
+Last update: 9/9/25.
+
 A modern boilerplate built with Vue 3 and Bootstrap 5. Includes Vue-Router, Pinia, Sass/SCSS, and ESLint — everything you need to kickstart your Vue project.
 
 ![logo](https://repository-images.githubusercontent.com/217154004/65cb3cfd-023f-4035-821a-ca5bf92cd433)
